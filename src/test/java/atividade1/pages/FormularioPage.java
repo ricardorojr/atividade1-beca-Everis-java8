@@ -17,6 +17,7 @@ public class FormularioPage {
 
 	FormularioMap formularioMap = new FormularioMap(driver);
 
+	//preenche os formularios do caso de teste
 	public void preencherFormulario() {
 		formularioMap.radioBtn1.click(driver);
 		formularioMap.radioBtn2.click(driver);
